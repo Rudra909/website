@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<header>
+<nav>
+<div class="row clearfix">
+<img src="logo2.jpg" alt="logo" class="logo">
+<ul class="main-nav" id="check-class">
+<li><a href="#"><b>HOME</b></a></li>
+<li><a href="#"><b>ABOUT US</b></a></li>
+<li><a href="#"><b>SERVICES</b></a></li>
+<li><a href="#"><b>CONTACT</b></a></li>
+</ul>
+<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+</div>
+</nav>
+<div class="main-content-header">
+<h1>WELCOME TO <span class="rudra">MAJOR SOFTWARE AGENCY</span><BR>
+7 BILLION PEOPLE CONNECTED WITH THIS COMPANY</h1>
+<a href="#" class="btn btn-full">CLICK HERE TO MORE INFORMATION</a><br><br><br>
+<a href="#" class="btn btn-nav">WATCH OUR MORE SUCCESSFULL VIDEOS</a>
+</div>
+</header>
+<script type="text/javascript">
+function slideshow(){
+var x = document.getElementById('check-class');
+if(x.style.display === "none"){
+x.style.display="block";
+}else{
+x.style.display="none";
+}
+}
+</script>
+</head>
+</body>
+</html>
