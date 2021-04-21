@@ -128,7 +128,7 @@ h1{font-size: 180%;}
 
 .main-nav{display: none;}
 
-.mobile-icon{ display: inline-block;
+  .mobile-icon{display: inline-block};
 color: yellow;
 float: right;
 margin-top: 30px;
